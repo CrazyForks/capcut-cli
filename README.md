@@ -20,6 +20,8 @@ Open the result in CapCut with every track still editable. capcut-cli works dire
 
 **▶ Captioned output example (60 seconds)**
 
+https://github.com/user-attachments/assets/4e6ee99c-0745-4cfb-8e9b-ad873fb1259b
+
 > [!TIP]
 > **Using an AI assistant with capcut-cli? Give it a safer “look, don’t touch” mode.**
 >

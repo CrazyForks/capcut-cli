@@ -20,6 +20,8 @@
 
 **▶ 带字幕的成片示例（60 秒）**
 
+https://github.com/user-attachments/assets/4e6ee99c-0745-4cfb-8e9b-ad873fb1259b
+
 ## 安装并打开你的第一个可编辑草稿
 
 **前置要求：** Node ≥ 18（仅用内置模块，无原生依赖）。可选工具解锁特定命令：Whisper 用于 `caption`，FFmpeg 用于 `render`，ffprobe 用于自动读取媒体元数据，`ANTHROPIC_API_KEY` 用于 `translate`。
