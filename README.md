@@ -18,7 +18,7 @@ Open the result in CapCut with every track still editable. capcut-cli works dire
 
 `raw recording` → `silence-aware cuts + styled captions` → `editable CapCut / JianYing draft`
 
-[**▶ Watch a captioned output example (60 seconds)**](./media/two-sisters-vietnam-short.mp4)
+**▶ Captioned output example (60 seconds)**
 
 > [!TIP]
 > **Using an AI assistant with capcut-cli? Give it a safer “look, don’t touch” mode.**
