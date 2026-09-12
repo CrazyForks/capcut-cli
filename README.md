@@ -22,19 +22,6 @@ Open the result in CapCut with every track still editable. capcut-cli works dire
 
 https://github.com/user-attachments/assets/4e6ee99c-0745-4cfb-8e9b-ad873fb1259b
 
-> [!TIP]
-> **Using an AI assistant with capcut-cli? Give it a safer “look, don’t touch” mode.**
->
-> The optional Wasm tool lets an AI:
->
-> - describe what is inside a CapCut project;
-> - show what changed between two versions; and
-> - spot common timeline and caption problems.
->
-> It can examine only the project information you hand to it. It cannot browse your files, go online, read passwords or API keys, open other apps, or change the project.
->
-> **Use it when** you want an AI to review a draft with the least possible access. **Skip it when** you are using capcut-cli yourself or want the AI to edit or render—the normal CLI still does those jobs. This feature is experimental, optional, and changes nothing unless you set it up. [**Technical details and setup →**](https://github.com/renezander030/capcut-cli/tree/master/wasm/capcut-core#readme)
-
 ## Install and open your first editable draft
 
 **Prerequisites:** Node ≥ 18 (built-ins only — no native modules). Optional tools unlock specific commands: Whisper for `caption`, FFmpeg for `render`, ffprobe for automatic media metadata, and `ANTHROPIC_API_KEY` for `translate`.
@@ -72,6 +59,18 @@ JSON in, JSON out: every command reads and writes the local draft store directly
 - **Agent sandbox (experimental)** — build [`capcut-core.wasm`](https://github.com/renezander030/capcut-cli/tree/master/wasm/capcut-core) for three read-only MCP tools with zero filesystem, network, environment, clock, random, stdio, or process imports
 
 ### Capability-free Wasm tools for agents
+
+**Using an AI assistant with capcut-cli? Give it a safer “look, don’t touch” mode.**
+
+The optional Wasm tool lets an AI:
+
+- describe what is inside a CapCut project;
+- show what changed between two versions; and
+- spot common timeline and caption problems.
+
+It can examine only the project information you hand to it. It cannot browse your files, go online, read passwords or API keys, open other apps, or change the project.
+
+**Use it when** you want an AI to review a draft with the least possible access. **Skip it when** you are using capcut-cli yourself or want the AI to edit or render—the normal CLI still does those jobs. This feature is experimental, optional, and changes nothing unless you set it up. [**Technical details and setup →**](https://github.com/renezander030/capcut-cli/tree/master/wasm/capcut-core#readme)
 
 The experimental [`wasm/capcut-core`](https://github.com/renezander030/capcut-cli/tree/master/wasm/capcut-core) source package moves the deterministic, JSON-in/JSON-out boundary into a WebAssembly Component:
 
