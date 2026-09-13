@@ -16,6 +16,8 @@ English | [中文](./README.zh-CN.md)
 
 Open the result in CapCut with every track still editable. capcut-cli works directly on the local draft store: JSON in, JSON out, with no upload, API, MCP server, or HTTP daemon.
 
+**Also from the maintainer:** [500 Years Frozen in Time: The Inca Children Mystery](https://www.youtube.com/watch?v=cl8SP3PjspQ), a 14:49 documentary from [Bronze Age Banter](https://www.youtube.com/@BronzeAgeBanter).
+
 `raw recording` → `silence-aware cuts + styled captions` → `editable CapCut / JianYing draft`
 
 **▶ Captioned output example (60 seconds)**
