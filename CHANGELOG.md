@@ -4,6 +4,10 @@ All notable changes to capcut-cli are documented here. The format follows [Keep 
 
 ## [Unreleased]
 
+### Changed
+
+- English and Chinese quickstarts now link to the maintainer's GitHub profile for more practical AI agent tools.
+
 ## [0.23.0] — 2026-09-11
 
 Nine items, mined the same way as 0.22: this repo's threads, the forks

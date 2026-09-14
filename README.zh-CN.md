@@ -40,6 +40,8 @@ capcut info ./my-first/ -H
 
 有用的话，[给 capcut-cli 加个 Star](https://github.com/renezander030/capcut-cli)，帮助更多剪辑师和 Agent 开发者发现它。
 
+想了解更多实用的 AI Agent 工具，从视频自动化到交付前的检查，[在 GitHub 上关注 René](https://github.com/renezander030)。
+
 也可以从源码构建：`git clone https://github.com/renezander030/capcut-cli && cd capcut-cli && npm install && npm run build`（然后用 `npm link` 暴露出 `capcut`）。或者不安装，直接运行任意命令：`npx capcut-cli <command>`。
 
 > [!IMPORTANT]
