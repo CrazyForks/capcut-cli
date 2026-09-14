@@ -42,6 +42,8 @@ capcut info ./my-first/ -H
 
 Useful? [Star capcut-cli](https://github.com/renezander030/capcut-cli) to help other editors and agent builders find it.
 
+For more practical tools for AI agents, from video automation to checks before they ship, [follow René on GitHub](https://github.com/renezander030).
+
 Build from source instead: `git clone https://github.com/renezander030/capcut-cli && cd capcut-cli && npm install && npm run build` (then `npm link` to expose `capcut`). Or run any command without installing: `npx capcut-cli <command>`.
 
 > [!IMPORTANT]
