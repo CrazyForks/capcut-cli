@@ -158,6 +158,7 @@ CapCut/JianYing store each project as local JSON. capcut-cli loads that store, v
 - [docs/version-support.md](./docs/version-support.md) · [docs/jianying-encryption.md](./docs/jianying-encryption.md)
 - [CHANGELOG.md](./CHANGELOG.md) · [Releases](https://github.com/renezander030/capcut-cli/releases) — what's new
 - [draftcat](https://github.com/renezander030/draftcat) — sibling project: governed AI pipelines (Go, MIT), same single-binary, no-API design
+- [skillgate](https://github.com/renezander030/skillgate) — sibling project: deterministic finish-line gates (Node, MIT), for when your agent reports "done" before the tests pass
 
 ## Trademarks
 

@@ -37,6 +37,16 @@ within three days, treat it as free and go ahead.
 4. The **pre-commit hook** runs `npm test` (build + full suite) and Biome on staged files. Keep it green; `--no-verify` only for genuine emergencies.
 5. Keep commits focused and the PR description concrete. Reference the issue it closes (`Closes #NN`).
 
+## Contributing with an AI agent
+
+Agent-written patches are welcome, but an agent that says "done" is not evidence that it is. Before you open the PR, let it prove the finish line instead of you discovering it in review:
+
+```bash
+npx @reneza/skillgate audit      # read-only: what would let a patch through unfinished
+```
+
+[skillgate](https://github.com/renezander030/skillgate) is MIT, zero-config to start, and its `verify-patch` command evaluates an agent's uncommitted patch in a network-off clone before it can touch your working tree. The pre-commit hook here still has the last word.
+
 ## Filing issues
 
 Bugs: include the command, the relevant slice of `draft_content.json`, the CapCut/JianYing version (`capcut version <project>`), and what you expected vs. saw. Feature requests: describe the workflow it unblocks. A scoped issue with acceptance criteria is the fastest path to a merge.
