@@ -150,6 +150,10 @@ capcut-cli is MIT and free forever. Sponsoring funds faster releases and same-we
 
 > Using capcut-cli at work? The Team tier pays for itself the first afternoon it saves your engineers.
 
+## Commercial work
+
+Separate from sponsorship: if you are building capcut-cli into a product, or you need it to do something it does not do yet, I take on a small number of integration engagements. Write to rene@renezander.com and say what you are building.
+
 ## How it works
 
 CapCut/JianYing store each project as local JSON. capcut-cli loads that store, validates against a version-aware schema, applies your edit, and writes it back atomically (with a `.bak`). No project files are uploaded anywhere; nothing runs as a service. See [docs/version-support.md](./docs/version-support.md) for the CapCut/JianYing versions and schema flags it understands.
